@@ -1,0 +1,52 @@
+.cabecalho {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #000000;
+    background-color: rgb(175, 175, 25);
+}
+
+.link {
+     text-align: center;
+    margin: 10px 0;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+input:invalid {
+    border: 2px solid red;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+}
+/*
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}*/

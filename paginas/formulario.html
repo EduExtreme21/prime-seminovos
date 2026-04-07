@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Cadastro de Usuário</h2>
+    </header>
+    <main>
+        <form class="formulario">
+            <section>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required minlength="3" 
+                        oninvalid="this.setCustomValidity('Digite seu nome')"
+                        oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <labeL for="idade">Idade:</labeL>
+                <input type="number" id="idade" name="idade" required min="18" max="60"
+                        oninvalid="this.setCustomValidity('Digite uma idade entre 18 e 60 anos')"
+                        oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required
+                        oninvalid="this.setCustomValidity('Digite um email válido')"
+                        oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required 
+                    pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="XX-XXXXX-XXXX"
+                    oninvalid="this.setCustomValidity('Digite seu telefone')"
+                    oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" required 
+                        pattern="[0-9]{5}-[0-9]{3}" placeholder="XXXXX-XXX"
+                        oninvalid="this.setCustomValidity('Digite um CEP válido')"
+                        oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required minlength="6"
+                        oninvalid="this.setCustomValidity('Digite uma senha com pelo menos 6 caracteres')"
+                        oninput="this.setCustomValidity('')"><br><br>
+            </section>
+
+            <section>
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required><br><br>
+            </section>
+
+            <section>
+                <label for="genero">Gênero:</label>
+                <input type="radio" id="genero" name="genero" value="masculino" required>
+                <label for="genero">Masculino</label>
+                <input type="radio" id="genero" name="genero" value="feminino" required>
+                <label for="genero">Feminino</label>
+                <input type="radio" id="genero" name="genero" value="outro" required>
+                <label for="genero">Outro</label><br><br>
+            </section>
+            
+            <section>
+                <label for="perfilCliente">Perfil do Cliente:</label>
+                <textarea id="perfilCliente" name="perfilCliente" rows="4" cols="50" placeholder="Descreva seu perfil como cliente..."></textarea><br><br>
+            </section>
+
+            <section>
+                <label for="tipoCarro">Tipo de carro:</label>
+                <select id="tipoCarro" name="tipoCarro">
+                    <option value="" disabled selected>Selecione um tipo de carro</option>
+                    <option value="sedan">Sedan</option>
+                    <option value="suv">SUV</option>
+                    <option value="hatch">Hatch</option>
+                    <option value="crossover">Crossover</option>
+                    <option value="pickup">Pickup</option>
+                </select><br><br>
+            </section>
+
+            <section>
+                <label for="interesses">Interesses:</label><br>
+                <input type="checkbox" id="interesses" name="interesses" value="compra">
+                <label for="interesses">Compra de Carro</label><br>
+                <input type="checkbox" id="interesses" name="interesses" value="aluguel">
+                <label for="interesses">Aluguel de Carro</label><br>
+                <input type="checkbox" id="interesses" name="interesses" value="servico">
+                <label for="interesses">Serviço de Manutenção</label><br><br>
+            </section>
+
+            <section>
+                <input type="submit" class="botao" value="Cadastrar">
+            </section>
+        </form>
+    </main>
+
+    <nav>
+        <div class="link"><a href="/index.html">Voltar para a página inicial</a></div>
+    </nav>
+
+    <footer>
+        <p>&copy; 2026 Prime Seminovos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
