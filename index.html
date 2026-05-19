@@ -9,81 +9,74 @@
 <body>
     <header>
         <div class="cabecalho">
-            <h1 id="titulo">Bem-vindo à Prime Seminovos!</h1>
-            <p id="slogan"><strong>Qualidade</strong> que você confia, <strong>preço</strong> que cabe no bolso.</p>
+            <div class="logo"><img src="/imagens/logo.png" alt="Logo da Prime Seminovos"></div>
+            <div class="slogan">
+                <h1>Bem-vindo à Prime Seminovos!</h1>
+                <p><strong>Qualidade</strong> que você confia, <strong>preço</strong> que cabe no bolso.</p>
+            </div>
             <nav>
-                <center>
-                    <div class="link"><a href="/paginas/carros.html">Veja nossos carros disponíveis</a></div>
-                </center>
+                <div title="Cadastro" class="link"><a href="./paginas/formulario.html">Cadastro</a></div>
+                <div class="link"><a href="/paginas/carros.html">Carros disponíveis</a></div>
+                <div class="link"><a href="/paginas/sobre.html">Sobre Nós</a></div>
             </nav>
         </div>
     </header>
-    <br><br>
+    <br>
     <main>
-        <section id="tabela">
+        <section id="beneficios">
             <article>
-                <div class="tabela">
-                    <table border="1" width="100%" cellspacing="0" cellpadding="10">
-                        <thead>
-                            <tr>
-                                <td colspan="4"><center><strong>Nossos principais carros disponíveis!</strong></center></td>
-                            </tr>
-                            <tr>
-                                <th>Marca</th>
-                                <th>Modelo</th>
-                                <th>Ano</th>
-                                <th>Preço</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Chevrolet</td>
-                                <td>Onix</td>
-                                <td>2024/2025</td>
-                                <td>R$75.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Hyundai</td>
-                                <td>HB20S</td>
-                                <td>2024/2025</td>
-                                <td>R$90.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Volkswagen</td>
-                                <td>Polo</td>
-                                <td>2024/2025</td>
-                                <td>R$70.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Fiat</td>
-                                <td>Cronos</td>
-                                <td>2024/2025</td>
-                                <td>R$85.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Volkswagen</td>
-                                <td>T-Cross</td>
-                                <td>2024/2025</td>
-                                <td>R$130.000,00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="beneficios">
+                    <h2>Por que escolher a Prime Seminovos?</h2>
+                    <div class="beneficio">
+                        <p><strong>Variedade:</strong></p>
+                        Temos uma ampla seleção de carros seminovos para atender a todos os gostos e necessidades.
+                    </div>
+                    <div class="beneficio">
+                        <p><strong>Qualidade:</strong></p>
+                        Todos os nossos veículos passam por rigorosas inspeções para garantir que estejam em excelente estado.
+                    </div>
+                    <div class="beneficio">
+                        <p><strong>Preços Competitivos:</strong></p>
+                        Oferecemos preços justos e condições de pagamento flexíveis para facilitar sua compra ou aluguel.
+                    </div>
+                    <div class="beneficio">
+                        <p><strong>Atendimento Personalizado:</strong></p>
+                        Nossa equipe está pronta para ajudar você a encontrar o carro perfeito e oferecer suporte em todas as etapas do processo.
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="carros_destaque">
+            <article>
+                <div class="carros_destaque">
+                    <h2>Carros em Destaque</h2>
+                    <div class="carro_destaque">
+                        <img src="/imagens/chevrolet_onix.webp" alt="Chevrolet Onix" width="100%" title="Chevrolet Onix">
+                        <p><strong>Chevrolet Onix</strong></p>
+                        <p>Compacto e econômico, ideal para o dia a dia.</p>
+                    </div>
+                    <div class="carro_destaque">
+                        <img src="/imagens/hyundai_hb20s.webp" alt="Hyundai HB20S" width="100%" title="Hyundai HB20S">
+                        <p><strong>Hyundai HB20S</strong></p>
+                        <p>Excelente custo-benefício e design moderno.</p>
+                    </div>
+                    <div class="carro_destaque">
+                        <img src="/imagens/volkswagen_polo.webp" alt="Volkswagen Polo" width="100%" title="Volkswagen Polo">
+                        <p><strong>Volkswagen Polo</strong></p>
+                        <p>Compacto e prático, perfeito para a cidade.</p>
+                    </div>
                 </div>
             </article>
         </section>
     </main>
     
-
-    <nav>
-        <center>
-            <div title="Sobre nós" class="link"><a href="./paginas/sobre.html">Saiba mais sobre nós</a></div>
-            <div title="Contato" class="link"><a href="./paginas/contato.html">Contate-nos</a></div>
-            <div title="Cadastro" class="link"><a href="./paginas/formulario.html">Faça seu cadastro</a></div>
-        </center>
-    </nav>
-
     <footer>
-        <p>&copy; 2026 Prime Seminovos. Todos os direitos reservados.</p>
+        <div class="contatos">
+            <p><strong>Contatos</strong></p>
+            <p>contato@primeseminovos.com.br</p>
+            <p>Telefone: (27) 1234-5678</p>
+        </div>
+        <p class="copy">&copy; 2026 Prime Seminovos. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
