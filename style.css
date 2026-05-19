@@ -114,12 +114,10 @@ input:invalid {
   background-color: #f9f9f9;
 }
 
-.formulario input {
-  width: 90%;
+.campo {
+  max-width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 .formulario textarea {
@@ -137,6 +135,25 @@ input:invalid {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 80%;
+}
+
+.form-genero {
+  display: flex;
+  margin: 10px 0;
+}
+
+.form-genero label {
+  margin-right: 10px;
+}
+
+.form-interesse {
+  display: flex;
+  margin: 10px 0;
+  margin-bottom: 5%;
+}
+
+.form-interesse label {
+  margin-right: 10px;
 }
 
 .beneficios {
@@ -204,6 +221,31 @@ input:invalid {
   border-radius: 5px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+}
+
+.sobre p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.avaliacoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 768px) {
@@ -224,7 +266,7 @@ input:invalid {
 
     .logo {
         width: 50%;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .link {
