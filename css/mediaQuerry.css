@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    body {
+        font-family: var(--fonte-padrao);
+        font-size: small;
+    }
+
+    main {
+        margin-bottom: 10%;
+        font-size: 65%;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+
+    .link {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .produtos {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .carros_destaque {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carro_destaque {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        max-width: 90%;
+        font-size: medium;
+    }
+
+    .campoDataNascimento {
+        max-width: 40%;
+    }
+
+    .secaoVideo {
+        margin-top: 25%;
+    }
+
+    .video iframe{
+        width: 50%;
+    }
+
+
+}

@@ -1,0 +1,88 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2%;
+}
+
+.carros {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.botao {
+  background-color: var(--cor-botao);
+  color: white;
+  border: none;
+  padding: 2% 3%;
+  cursor: pointer;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.beneficios h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.beneficio {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+  width: 18%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.carros_destaque {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.carros_destaque h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.carro_destaque {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  width: 20%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avaliacoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 2%;
+}
