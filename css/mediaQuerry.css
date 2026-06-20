@@ -30,9 +30,11 @@
 
     .produtos {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        font-size: small;
     }
 
     .carros_destaque {
+        font-size: medium;
         flex-direction: column;
         align-items: center;
     }
@@ -40,6 +42,15 @@
     .carro_destaque {
         width: 80%;
         margin-bottom: 20px;
+    }
+    .beneficios {
+        font-size: medium;
+        align-items: center;
+    }
+
+    .beneficio {
+        width: 80%;
+        margin-top: 2%;
     }
 
     .formulario {
