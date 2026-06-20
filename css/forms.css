@@ -1,0 +1,80 @@
+:root {
+    --cor-borda: 1px solid #ccc;
+
+}
+
+input:valid {
+  border: 2px solid green;
+}
+input:invalid {
+  border: 2px solid red;
+}
+
+.formulario {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  border: var(--cor-borda);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.linhaCampo {
+    display: flex;
+    padding: 1%;
+}
+
+.linhaCampo label {
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.campo {
+  width: 90%;
+  padding: 9px;
+  margin: 10px 0;
+}
+
+.campoDataNascimento {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.formulario textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: var(--cor-borda);
+  border-radius: 5px;
+}
+
+.formulario select {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: var(--cor-borda);
+  border-radius: 5px;
+  font-size: 80%;
+}
+
+.form-genero {
+  display: flex;
+  max-width: 90%;
+  margin: 10px 0;
+}
+
+.form-genero label {
+  margin-right: 10px;
+}
+
+.form-interesse {
+  display: flex;
+  margin: 10px 0;
+  margin-bottom: 5%;
+}
+
+.form-interesse label {
+  margin-right: 10px;
+}
